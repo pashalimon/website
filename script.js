@@ -16,6 +16,11 @@ function toggleMenu() {
     }
 }
 
+// Функция для симуляции добавления товара в корзину
+function addToCart(productName) {
+    alert(`Товар "${productName}" успешно добавлен в корзину!`);
+}
+
 // Валидация и отправка формы обратной связи
 function handleFormSubmit(event) {
     event.preventDefault();
